@@ -1,0 +1,73 @@
+h1, h3 { text-align: center; }
+
+p { color: red; }
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid;
+    height: 2.5%;
+}
+
+footer, .login { text-align: center; }
+
+.nomeEmail { width: 40%; }
+
+.msgErro {
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+
+.msgSucesso {
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+
+.legenda { font-weight: bold; }
+
+.colunaData { width: 10%; }
+
+.colunaEntrada, .colunaSaida { width: 15%; }
+
+.colunaAssinatura { width: 60%; }
+
+.naoLetivo { background-color: darkgray; }
+
+.corpo {
+    margin: 0% auto;
+    width: 70%;
+}
+
+.menu ul {
+    background-color: gainsboro;
+    float: left;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.menu ul li { display: inline; }
+
+.menu ul li a {
+    border-bottom: solid gainsboro;
+    text-decoration: none;
+    padding: 1% 2%;
+    color: #333;
+    float:left;
+}
+
+.menu ul li a:hover {
+    background-color: silver;
+    border-bottom: solid red;
+}
